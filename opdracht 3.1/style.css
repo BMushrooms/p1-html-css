@@ -8,6 +8,11 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background-image: url(img/hacker.png);
+  background-repeat: no-repeat;
+  background-size: 1300px;
+  background-position: top;
+  background-color: black;
 }
 
 nav {
@@ -34,8 +39,10 @@ nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
+
 }
 
 .tekst
@@ -44,6 +51,7 @@ nav img {
 font-size: 24px;  
 font-family: Verdana;
 list-style-type: circle;
+color: white;
 
 }
 
@@ -52,4 +60,14 @@ list-style-type: circle;
 {
 font-size: 24px;  
 font-family: Verdana;
+color: white;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  padding: 2rem;
+  background-color: DarkSalmon;
+  color: rgb(250, 250, 250);
+  width: 100%;
 }
